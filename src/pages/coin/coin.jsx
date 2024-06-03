@@ -47,7 +47,7 @@ if(coinData, historicalData){
   return (
     <div className='coin'>
       <div className="coin-name">
-        <img src={coinData.image.large} alt="" />
+        <img src={coinData.image.large} alt=""/>
         <p><b>{coinData.name} ({coinData.symbol.toUpperCase()})</b></p>
       </div>
 
