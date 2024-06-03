@@ -24,7 +24,7 @@ const currencyHandler=(event)=>{
       break;
     
     }
-    default : {
+    default {
       setCurrency({name:"usd", symbol:"$"});
       break;
     }
